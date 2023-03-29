@@ -1,0 +1,11 @@
+.myChat{
+    position: sticky;
+    bottom: 30px;
+    right: 30px;
+    float: right;
+}
+
+#icon{
+    height: 40px;
+    width: auto;
+}

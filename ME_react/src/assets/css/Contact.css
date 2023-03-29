@@ -1,0 +1,235 @@
+/* Parekh Dhairya - 1001868341 */
+/* Nirmal Vibhav  - 1001855253 */
+/* Peddi Srikar   - 1002074446 */
+
+body {
+    font-family: inherit;
+}
+
+
+@media screen and (max-width: 899px) {
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+    }
+
+    .maintitle #about {
+        font-size: 28px;
+    }
+
+    .mainContent {
+        margin: 30px 50px 20px 50px;
+    }
+
+    .details {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+
+    .ll {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: left;
+    }
+
+
+    #myLogo {
+        margin: 16px;
+        height: 24px;
+    }
+
+    .detailsNew {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+    .split {
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    #touch {
+        font-size: 18px;
+        color: var(--secondary-color);
+    }
+
+    .detailsNew input {
+        box-sizing: border-box;
+        border: 1px solid #e8e8e8;
+        height: 50px;
+        background-color: transparent;
+        padding: 2px 20px;
+        color: #777;
+        width: 100% !important;
+    }
+
+    #inputss {
+        font: inherit;
+        font-size: 16px;
+    }
+
+    .innerContent {
+        margin: 0px 0px 20px;
+    }
+
+    textarea {
+        min-height: 125px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #e8e8e8;
+        height: 50px;
+        background-color: transparent;
+        padding: 2px 20px;
+        color: #777;
+        width: 100%;
+    }
+
+    .social {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+    input.placeOrderButton {
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0 42px;
+        height: 46px;
+        background: #000;
+        color: #fff;
+        width: 100%;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 120px 50px 120px;
+    }
+
+    .maintitle #about {
+        font-size: 28px;
+    }
+
+    .mainContent {
+        margin: 30px 150px 30px 150px;
+    }
+
+    .newC{
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+
+    .details {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between;
+        grid-gap: 10px;
+        margin: 10px;
+        padding: 20px 0;
+    }
+
+    .detailsNew {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        justify-content: space-between;
+        grid-gap: 10px;
+        margin: 10px;
+        padding: 41px 0;
+    }
+
+    .detailsNew .myleft {
+        grid-column: 1 / span 5;
+    }
+
+    .detailsNew .myright {
+        width: 400px;
+    }
+
+    .myright{
+        text-align: right;
+    }
+
+    .split {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    #touch {
+        font-size: 18px;
+        color: var(--secondary-color);
+    }
+
+    .detailsNew input {
+        box-sizing: border-box;
+        border: 1px solid #e8e8e8;
+        height: 50px;
+        background-color: transparent;
+        padding: 2px 20px;
+        color: #777;
+        width: 100% !important;
+    }
+
+    #inputss {
+        font: inherit;
+        font-size: 16px;
+    }
+
+    .innerContent {
+        margin: 0px 0px 20px;
+    }
+
+    textarea {
+        min-height: 125px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #e8e8e8;
+        height: 50px;
+        background-color: transparent;
+        padding: 2px 20px;
+        color: #777;
+        width: 100%;
+    }
+
+    .social {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: right;
+    }
+
+    .myright .dataFields{
+        margin-left: 50px;
+    }
+
+    input.placeOrderButton {
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0 42px;
+        height: 46px;
+        background: #000;
+        color: #fff;
+        width: 100%;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .ll {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+
+    #myLogo {
+        margin: 15px;
+        height: 24px;
+    }
+}

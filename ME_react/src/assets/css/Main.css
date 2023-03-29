@@ -1,0 +1,315 @@
+/* Parekh Dhairya - 1001868341 */
+/* Nirmal Vibhav  - 1001855253 */
+/* Peddi Srikar   - 1002074446 */
+
+:root {
+    --main-font-size: 18px;
+    --header-footer-bg: #F3F5F7;
+    --primary-color: black;
+    --secondary-color: #dcb14a;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    margin: 0px;
+    padding: 0px;
+    transition: 0.3s all;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 899px) {
+    /* HEADER */
+    .grid-container.header {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    #logoo {
+        margin-top: 10px;
+        height: 100px;
+    }
+
+    .header .item1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header .item2 {
+        margin: 20px 0px 20px 0px ;
+    }
+
+    input[type=text] {
+        font-size: 16px;
+        width: 260px;
+        -webkit-transition: width .5s ease-in-out;
+        transition: width .5s ease-in-out;
+    }
+
+    input[type=text]:focus#searchMain {
+        width: 300px;
+    }
+
+    #searchMain {
+        font-size: 22px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    :focus {
+        outline: none !important;
+    }
+
+    img#searchIcon {
+        width: 20px;
+    }
+
+    img#mainScreenIcons {
+        width: 30px;
+    }
+
+    .table{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+    }
+
+    #nav-bar .table{
+        padding: 0px;
+    }
+
+    ul li {
+        display: inline;
+    }
+
+    .header {
+        background-color: var(--header-footer-bg);
+    }
+
+    /* ----------------------------------------------------------- */
+
+    /* FOOTER */
+
+    .grid-container.footer {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+    .footer {
+        position: static;
+        bottom: 0px;
+        background-color: var(--header-footer-bg);
+    }
+
+    img#emailSend {
+        width: 18px;
+        position: relative;
+        top: 2px;
+    }
+
+    input[type=text]:focus {
+        border-color: var(--secondary-color) !important;
+        color: var(--secondary-color) !important;
+    }
+
+    input[type=password]:focus {
+        border-color: var(--secondary-color) !important;
+        color: var(--secondary-color) !important;
+    }
+
+    .footer .item8{
+        margin-bottom: 60px;
+    }
+
+    #emailEnter {
+        font-size: var(--main-font-size);
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    /* --------------------------------------- */
+}
+
+@media screen and (min-width: 900px) {
+    :root {
+        --main-font-size: 16px;
+        --header-footer-bg: #F3F5F7;
+        --primary-color: black;
+        --secondary-color: #dcb14a;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        transition: 0.3s all;
+    }
+
+    /* HEADER */
+    .grid-container.header {
+
+        position: sticky;
+        top: 0;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: space-evenly;
+        z-index: 5;
+    }
+
+    img#searchIcon {
+        margin: -3px;
+        width: 16px;
+    }
+
+    img#mainScreenIcons {
+        width: 24px;
+        padding: 0px 16px 0px 16px;
+    }
+
+    .header .item1 {
+        font-size: 20px;
+        padding: 0px;
+        margin: -8px;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .header .item2 {
+        grid-column-start: span 2;
+    }
+
+    .header .item4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .header .item5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    ul li {
+        display: inline;
+    }
+
+    .header {
+        background-color: var(--header-footer-bg);
+    }
+
+    input[type=text] {
+        width: 260px;
+        -webkit-transition: width .5s ease-in-out;
+        transition: width .5s ease-in-out;
+    }
+
+    input[type=text]:focus#searchMain {
+        width: 300px;
+    }
+
+    #searchMain {
+        padding: 4px;
+        margin: 8px;
+        font-size: var(--main-font-size);
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    :focus {
+        outline: none !important;
+    }
+
+    /* ----------------------------------------------------------- */
+
+    /* FOOTER */
+
+    .grid-container.footer {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: space-evenly;
+        padding: 50px;
+        padding-top: 20px;
+    }
+
+    #emailEnter {
+        padding: 4px;
+        margin: 8px;
+        font-size: var(--main-font-size);
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    .footer {
+        position: static;
+        bottom: 0px;
+        background-color: var(--header-footer-bg);
+    }
+
+    img#emailSend {
+        width: 16px;
+        position: relative;
+        left: -35px;
+        top: 2px;
+        opacity: 0.5;
+    }
+
+    input[type=text]:focus {
+        border-color: var(--secondary-color) !important;
+        color: var(--secondary-color) !important;
+    }
+
+    input[type=email]:focus {
+        border-color: var(--secondary-color) !important;
+        color: var(--secondary-color) !important;
+    }
+
+    input[type=password]:focus {
+        border-color: var(--secondary-color) !important;
+        color: var(--secondary-color) !important;
+    }
+
+    /* --------------------------------------- */
+
+
+    #logoo {
+        margin-top: 6px;
+        height: 60px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        transition: 0.2s ease-in;
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+    }
+}

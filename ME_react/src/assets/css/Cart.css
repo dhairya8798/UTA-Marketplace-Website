@@ -1,0 +1,316 @@
+/* Parekh Dhairya - 1001868341 */
+/* Nirmal Vibhav  - 1001855253 */
+/* Peddi Srikar   - 1002074446 */
+
+
+
+body {
+    font-family: inherit;
+}
+
+@media screen and (max-width: 899px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .main-wrapper {
+        width: 100%;
+        margin: auto;
+    }
+
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+    }
+
+    .maintitle #about {
+        font-size: 28px;
+    }
+
+    .myCart {
+        margin-top: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    table {
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        border-collapse: collapse;
+    }
+
+    table th {
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    table td {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 20px;
+    }
+
+    table .bg-gray {
+        background-color: #f4f5f7;
+    }
+
+    .coup {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .flex-container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-evenly;
+    }
+
+    .flex-container-update-cart {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        height: 75px;
+    }
+
+    .flex-item-left {
+        padding: 10px;
+    }
+
+    .flex-item-right {
+        padding: 10px;
+    }
+
+    .grand-total-wrap {
+        border: #bfbfbf solid 1px;
+        background: #f9f9f9;
+        padding: 0 30px 0;
+    }
+
+    .button {
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    .discount-code input {
+        margin-bottom: 30px;
+        border: #ccc solid 2px;
+        color: #000;
+        border-radius: 0;
+        padding: 13px 15px 15px;
+        width: auto;
+    }
+
+    ul {
+        list-style: none outside none;
+        padding: 0;
+    }
+
+    .grand-total-wrap>.grand-total-content>ul>li {
+        padding: 16px;
+    }
+
+    #total {
+        float: right;
+    }
+
+    .proceed {
+        margin-top: 30px;
+    }
+
+    .proceed .button {
+        width: 100%;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .qua {
+        text-align: center !important;
+    }
+
+    input[type="number"] {
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 10px;
+        font-family: inherit;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .main-wrapper {
+        width: 1100px;
+        margin: auto;
+    }
+
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 120px 50px 120px;
+    }
+
+    .maintitle #about {
+        font-size: 28px;
+    }
+
+    .myCart {
+        margin-top: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    table {
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        border-collapse: collapse;
+    }
+
+    table th {
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    table td {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 20px;
+    }
+
+    table .bg-gray {
+        background-color: #f4f5f7;
+    }
+
+    .coup {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-0.5 * var(--bs-gutter-x));
+        margin-left: calc(-0.5 * var(--bs-gutter-x));
+        padding: 10px;
+    }
+
+    .flex-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        flex-wrap: wrap;
+        justify-content: stretch;
+    }
+
+    .flex-container-update-cart {
+        display: grid;
+        grid-template-columns: auto auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .flex-item-left {
+        padding: 10px;
+    }
+
+    .flex-item-right {
+        padding: 10px;
+    }
+
+    .grand-total-wrap {
+        border: #bfbfbf solid 1px;
+        background: #f9f9f9;
+        padding: 0 30px 0;
+    }
+
+    .button {
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    .discount-code input {
+        margin-bottom: 30px;
+        border: #ccc solid 2px;
+        color: #000;
+        border-radius: 0;
+        padding: 16px 15px 15px;
+    }
+
+    ul {
+        list-style: none outside none;
+        padding: 0;
+    }
+
+    .grand-total-wrap>.grand-total-content>ul>li {
+        padding: 16px;
+    }
+
+    #total {
+        float: right;
+    }
+
+    .proceed {
+        margin-top: 30px;
+    }
+
+    .proceed .button {
+        width: 100%;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .qua {
+        text-align: center !important;
+    }
+
+    input[type="number"] {
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 10px;
+        font-family: inherit;
+    }
+}

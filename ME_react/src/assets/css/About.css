@@ -1,0 +1,340 @@
+/* Parekh Dhairya - 1001868341 */
+/* Nirmal Vibhav  - 1001855253 */
+/* Peddi Srikar   - 1002074446 */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: inherit;
+}
+
+@media screen and (max-width: 899px) {
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+    }
+
+    .maintitle #about {
+        font-size: 28px;
+    }
+
+    .mainContent {
+        margin: 30px
+    }
+
+    .writtenWork {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    #fixUL {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    #mySl {
+        max-width: 120px;
+        background-color: beige;
+        padding: 15px;
+        border-spacing: 10px;
+        min-width: 120px;
+        /* display: table-cell; */
+        text-align: center;
+    }
+
+    button#hshop {
+        font-size: 14px;
+        color: var(--header-footer-bg);
+        border: 1px solid black;
+        background-color: black;
+        margin-top: 30px;
+        padding: 8px 16px 8px 16px;
+    }
+
+    #wContent {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    #tContent {
+        font-size: 20px;
+    }
+
+    #myImg{
+        width: 100%;
+        margin: 50px 0px 50px 0px;
+    }
+
+    .brands {
+        background-color: #F5F5F5;
+    }
+
+    #btitle {
+        /* margin-left: 100px; */
+        padding: 25px;
+        font-size: 24px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+
+    .brandsLogos {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        z-index: 1;
+    }
+
+
+    #mlogos {
+        background-color: white;
+        /* max-height: 30px; */
+        /* height: 100%; */
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        padding: 10px 50px 10px 50px;
+    }
+
+    .testi {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .myTest {
+        width: 200px;
+        border-radius: 10px;
+        padding: 20px 30px 5px 30px;
+        background-color: #F5F5F5;
+        text-align: center;
+    }
+
+    #tTitle {
+        margin: auto;
+        display: table-cell;
+        vertical-align: middle;
+        width: 50%;
+        height: 150px;
+    }
+
+    #tMyTitle {
+        /* margin-left: 100px; */
+        font-size: 24px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    
+    .test2{
+        display: none;
+    }
+    .test3{
+        display: none;
+    }
+
+    #testID {
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .testimonials {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.3s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .next {
+        right: 0px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 120px 50px 120px;
+    }
+
+    .maintitle #about {
+        font-size: 28px;
+    }
+
+    .mainContent {
+        margin: 30px 120px 20px 120px;
+    }
+
+    .writtenWork {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    #fixUL {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    #mySl {
+        max-width: 120px;
+        background-color: beige;
+        padding: 15px;
+        border-spacing: 10px;
+        min-width: 120px;
+        /* display: table-cell; */
+        text-align: center;
+    }
+
+    .wp1{
+        text-align: center;
+    }
+
+    button#hshop {
+        font-size: 14px;
+        color: var(--header-footer-bg);
+        border: 1px solid black;
+        background-color: black;
+        position: relative;
+        float: none;
+        margin-top: 30px;
+        padding: 8px 16px 8px 16px;
+    }
+
+    #wContent {
+        padding: 10px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    #tContent {
+        font-size: 20px;
+    }
+
+    .brands {
+        background-color: #F5F5F5;
+        height: 400px;
+    }
+
+    #btitle {
+        margin-left: 100px;
+        padding: 25px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+
+    .brandsLogos {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        z-index: 1;
+    }
+
+
+    #mlogos {
+        background-color: white;
+        /* max-height: 30px; */
+        /* height: 100%; */
+        width: 8vw;
+        height: 12vh;
+        border-radius: 10px;
+        padding: 10px 50px 10px 50px;
+    }
+
+    .testi {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .myTest {
+        width: 200px;
+        border-radius: 10px;
+        padding: 20px 30px 15px 30px;
+        background-color: #F5F5F5;
+        text-align: center;
+    }
+
+    #tTitle {
+        margin: auto;
+        display: table-cell;
+        vertical-align: middle;
+        width: 50%;
+        height: 150px;
+    }
+
+    #tMyTitle {
+        margin-left: 100px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    #testID {
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .testimonials {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.3s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .prev {
+        left: 120px;
+    }
+
+    .next {
+        right: 120px;
+    }
+}

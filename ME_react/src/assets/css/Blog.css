@@ -1,0 +1,114 @@
+/* Parekh Dhairya - 1001868341 */
+/* Nirmal Vibhav  - 1001855253 */
+/* Peddi Srikar   - 1002074446 */
+
+body{
+    font-family: inherit;
+}
+
+@media screen and (max-width: 899px) {
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+    }
+    
+    .maintitle #about {
+        font-size: 28px;
+    }
+    
+    .mainContent {
+        margin: 30px;
+        display: grid;
+        grid-template-columns: auto;
+        font-size: 18px;
+    }
+
+    #head{
+        font-size: 26px;
+    }
+
+    .blog{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    .iblog{
+        background-color: lightgray;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    #linktoblog{
+        font-size: 20px;
+    }
+
+    #imgId {
+        width: auto;
+        height: 175px;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width: 900px) {
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 120px 50px 120px;
+    }
+    
+    .maintitle #about {
+        font-size: 28px;
+    }
+
+    #head{
+        font-size: 26px;
+    }
+
+    .blog{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    .iblog{
+        text-align: center;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    #linktoblog{
+        font-size: 20px;
+    }
+
+    #imgId {
+        width: auto;
+        height: 180px;
+        overflow: hidden;
+    }
+    
+    .mainContent {
+        margin: 30px 120px 20px 120px;
+        display: grid;
+        grid-template-columns: auto;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+
+}

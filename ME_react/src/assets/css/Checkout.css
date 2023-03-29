@@ -1,0 +1,330 @@
+/* Parekh Dhairya - 1001868341 */
+/* Nirmal Vibhav  - 1001855253 */
+/* Peddi Srikar   - 1002074446 */
+
+body{
+    font-family: inherit;
+}
+
+@media screen and (max-width: 899px) {
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 50px 50px 50px;
+        /* text-align: center; */
+    }
+    
+    .maintitle #about {
+        font-size: 28px;
+    }
+    
+    .mainContent {
+        margin: 30px;
+        display: grid;
+        grid-template-columns: auto;
+        font-size: 18px;
+    }
+    
+    .billDet {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .full .select-active {
+        border: 1px solid #e6e6e6;
+        border-radius: 0;
+    }
+    
+    .your-order-area {
+        /* padding: 40px 45px 50px; */
+        border-width: 2px;
+        border-style: solid;
+        position: relative;
+        border: 1px solid #bfbfbf;
+        background-color: #f6f6f6;
+    }
+    
+    .placeOrder {
+        margin-top: 30px;
+    }
+    
+    a,
+    button {
+        color: inherit;
+        display: inline-block;
+        line-height: inherit;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .placeOrderButton {
+        text-align: center;
+        box-sizing: border-box;
+        line-height: 44px;
+        padding: 0 42px;
+        height: 46px;
+        background: #000;
+        color: #fff;
+        width: 100%;
+    }
+
+    .your-order-info-wrap li{
+        padding-left: 30px !important;
+    }
+    
+    .your-order-area .your-order-wrap .your-order-middle ul li {
+        font-size: 16px;
+        /* margin: 0 0 11px !important; */
+    }
+    
+    .your-order-middle {
+        border-bottom: 1px solid #cdcdcd;
+        padding: 24px 0 23px;
+    }
+    
+    p:last-child {
+        margin-bottom: 0;
+    }
+    
+    ul li span {
+        float: right;
+        font-size: 16px;
+    }
+
+    .your-order-info ul{
+        padding-right: 30px;
+    }
+    
+    .your-order-middle ul {
+        margin: 0px;
+        padding-right: 30px;
+    }
+    
+    select {
+        font-size: 16px;
+        padding: 3px 20px;
+        height: 56px;
+        max-width: 100%;
+        width: 100%;
+        outline: none;
+        border: 1px solid #f8f8f8;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+    }
+    
+    .namee {
+        /* margin: 3px 12px 2px 12px; */
+        display: grid;
+        grid-template-columns: auto auto;
+        flex-wrap: wrap;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .namee .half1 {
+        padding-right: 10px;
+    }
+    
+    .full {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    
+    .myBox {
+        margin-bottom: 25px;
+    }
+    
+    .mainContent input {
+        border: 1px solid #e8e8e8;
+        height: 50px;
+        background-color: transparent;
+        padding: 2px 20px;
+        box-sizing: border-box;
+        color: #777;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .mainContent label {
+        display: block;
+        margin: 0 0 10px;
+    }
+    
+    input.billing-address {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .maintitle {
+        background-color: #F4F5F7;
+        padding: 50px 120px 50px 120px;
+    }
+    
+    .maintitle #about {
+        font-size: 28px;
+    }
+    
+    .mainContent {
+        margin: 30px 120px 20px 120px;
+        display: grid;
+        grid-template-columns: auto auto auto !important;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+    
+    .mainContent .left {
+        grid-column: 1 / span 2;
+        margin-right: 10px;
+    }
+    
+    .mainContent .right {
+        margin-left: 10px;
+    }
+    
+    .billDet {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .full .select-active {
+        border: 1px solid #e6e6e6;
+        border-radius: 0;
+    }
+    
+    .your-order-area {
+        padding: 40px 45px 50px;
+        border-width: 2px;
+        border-style: solid;
+        position: relative;
+        border: 1px solid #bfbfbf;
+        background-color: #f6f6f6;
+    }
+    
+    .placeOrder {
+        margin-top: 30px;
+    }
+    
+    a,
+    button {
+        color: inherit;
+        display: inline-block;
+        line-height: inherit;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .placeOrderButton {
+        text-align: center;
+        box-sizing: border-box;
+        line-height: 44px;
+        padding: 0 42px;
+        height: 46px;
+        background: #000;
+        color: #fff;
+        width: 100%;
+    }
+    
+    .your-order-area .your-order-wrap .your-order-middle ul li {
+        font-size: 16px;
+        /* margin: 0 0 11px !important; */
+    }
+    
+    .your-order-middle {
+        border-bottom: 1px solid #cdcdcd;
+        padding: 24px 0 23px;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+    
+    ul li span {
+        float: right;
+        font-size: 16px;
+    }
+    
+    .your-order-middle ul {
+        margin: 0px;
+    }
+    
+    select {
+        font-size: 16px;
+        padding: 3px 20px;
+        height: 56px;
+        max-width: 100%;
+        width: 100%;
+        outline: none;
+        border: 1px solid #f8f8f8;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+    }
+    
+    .namee {
+        /* margin: 3px 12px 2px 12px; */
+        display: grid;
+        grid-template-columns: auto auto;
+        flex-wrap: wrap;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .namee .half1 {
+        padding-right: 10px;
+    }
+    
+    .full {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    
+    .myBox {
+        margin-bottom: 25px;
+    }
+    
+    .mainContent input {
+        border: 1px solid #e8e8e8;
+        height: 50px;
+        background-color: transparent;
+        padding: 2px 20px;
+        box-sizing: border-box;
+        color: #777;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .mainContent label {
+        display: block;
+        margin: 0 0 10px;
+    }
+    
+    input.billing-address {
+        margin-bottom: 20px;
+    }
+}

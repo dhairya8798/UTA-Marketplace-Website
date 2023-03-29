@@ -1,0 +1,89 @@
+/* Parekh Dhairya - 1001868341 */
+/* Nirmal Vibhav  - 1001855253 */
+/* Peddi Srikar   - 1002074446 */
+
+body {
+	font-family: inherit;
+}
+
+@media screen and (max-width: 899px) {
+	.maintitle {
+		background-color: #F4F5F7;
+		padding: 50px 120px 50px 120px;
+	}
+
+	.maintitle #about {
+		font-size: 28px;
+	}
+
+	.container {
+		/* margin-left: 100px; */
+		/* margin-right: 100px; */
+		display: grid;
+		grid-template-columns: 100%;
+		justify-content: center;
+		padding: 30px 50px 30px 50px;
+		text-align: center;
+	}
+
+	.leftpane, .middlepane, .rightpane {
+		background-color: #F4F5F7;
+		margin: 20px 10px 20px 10px;
+		padding: 14px;
+		/* width: 250px; */
+		height: auto;
+	}
+
+	.myImg {
+		height: 80px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.maintitle {
+		background-color: #F4F5F7;
+		padding: 50px 120px 50px 120px;
+	}
+
+	.maintitle #about {
+		font-size: 28px;
+	}
+
+	.contentt{
+		min-height: 200px;
+	}
+
+	.learnMore{
+		background-color: lightgray;
+		padding: 12px;
+		border-radius: 2px;
+	}
+
+	.container {
+		margin-left: 100px;
+		margin-right: 100px;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		justify-content: center;
+		padding: 30px 50px 30px 50px;
+		text-align: center;
+	}
+
+	.container h1.title{
+		min-height: 100px;
+	}
+
+	.leftpane,
+	.middlepane,
+	.rightpane {
+		background-color: #F4F5F7;
+		margin: 20px;
+		padding: 20px;
+		width: 250px;
+		height: auto;
+	}
+
+	.myImg {
+		height: 80px;
+	}
+}
